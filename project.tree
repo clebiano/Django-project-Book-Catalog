@@ -1,0 +1,1122 @@
+.
+├── project.tree
+├── readme.md
+├── requirements.txt
+└── venv
+    ├── bin
+    │   ├── activate
+    │   ├── activate.csh
+    │   ├── activate.fish
+    │   ├── activate.ps1
+    │   ├── activate_this.py
+    │   ├── activate.xsh
+    │   ├── easy_install
+    │   ├── easy_install-3.6
+    │   ├── pip
+    │   ├── pip3
+    │   ├── pip3.6
+    │   ├── python -> python3.6
+    │   ├── python3 -> python3.6
+    │   ├── python3.6
+    │   ├── python-config
+    │   └── wheel
+    ├── include
+    │   └── python3.6m -> /usr/include/python3.6m
+    └── lib
+        └── python3.6
+            ├── abc.py -> /usr/lib/python3.6/abc.py
+            ├── base64.py -> /usr/lib/python3.6/base64.py
+            ├── bisect.py -> /usr/lib/python3.6/bisect.py
+            ├── _bootlocale.py -> /usr/lib/python3.6/_bootlocale.py
+            ├── codecs.py -> /usr/lib/python3.6/codecs.py
+            ├── collections -> /usr/lib/python3.6/collections
+            ├── _collections_abc.py -> /usr/lib/python3.6/_collections_abc.py
+            ├── config-3.6m-x86_64-linux-gnu -> /usr/lib/python3.6/config-3.6m-x86_64-linux-gnu
+            ├── copy.py -> /usr/lib/python3.6/copy.py
+            ├── copyreg.py -> /usr/lib/python3.6/copyreg.py
+            ├── distutils
+            │   ├── distutils.cfg
+            │   ├── __init__.py
+            │   └── __pycache__
+            │       └── __init__.cpython-36.pyc
+            ├── _dummy_thread.py -> /usr/lib/python3.6/_dummy_thread.py
+            ├── encodings -> /usr/lib/python3.6/encodings
+            ├── enum.py -> /usr/lib/python3.6/enum.py
+            ├── fnmatch.py -> /usr/lib/python3.6/fnmatch.py
+            ├── functools.py -> /usr/lib/python3.6/functools.py
+            ├── __future__.py -> /usr/lib/python3.6/__future__.py
+            ├── genericpath.py -> /usr/lib/python3.6/genericpath.py
+            ├── hashlib.py -> /usr/lib/python3.6/hashlib.py
+            ├── heapq.py -> /usr/lib/python3.6/heapq.py
+            ├── hmac.py -> /usr/lib/python3.6/hmac.py
+            ├── importlib -> /usr/lib/python3.6/importlib
+            ├── imp.py -> /usr/lib/python3.6/imp.py
+            ├── io.py -> /usr/lib/python3.6/io.py
+            ├── keyword.py -> /usr/lib/python3.6/keyword.py
+            ├── lib-dynload -> /usr/lib/python3.6/lib-dynload
+            ├── LICENSE.txt -> /usr/lib/python3.6/LICENSE.txt
+            ├── linecache.py -> /usr/lib/python3.6/linecache.py
+            ├── locale.py -> /usr/lib/python3.6/locale.py
+            ├── no-global-site-packages.txt
+            ├── ntpath.py -> /usr/lib/python3.6/ntpath.py
+            ├── operator.py -> /usr/lib/python3.6/operator.py
+            ├── orig-prefix.txt
+            ├── os.py -> /usr/lib/python3.6/os.py
+            ├── posixpath.py -> /usr/lib/python3.6/posixpath.py
+            ├── __pycache__
+            │   ├── abc.cpython-36.pyc
+            │   ├── base64.cpython-36.pyc
+            │   ├── bisect.cpython-36.pyc
+            │   ├── _bootlocale.cpython-36.pyc
+            │   ├── codecs.cpython-36.pyc
+            │   ├── _collections_abc.cpython-36.pyc
+            │   ├── copy.cpython-36.pyc
+            │   ├── copyreg.cpython-36.pyc
+            │   ├── enum.cpython-36.pyc
+            │   ├── fnmatch.cpython-36.pyc
+            │   ├── functools.cpython-36.pyc
+            │   ├── __future__.cpython-36.pyc
+            │   ├── genericpath.cpython-36.pyc
+            │   ├── hashlib.cpython-36.pyc
+            │   ├── heapq.cpython-36.pyc
+            │   ├── hmac.cpython-36.pyc
+            │   ├── io.cpython-36.pyc
+            │   ├── keyword.cpython-36.pyc
+            │   ├── linecache.cpython-36.pyc
+            │   ├── locale.cpython-36.pyc
+            │   ├── ntpath.cpython-36.pyc
+            │   ├── operator.cpython-36.pyc
+            │   ├── os.cpython-36.pyc
+            │   ├── posixpath.cpython-36.pyc
+            │   ├── random.cpython-36.pyc
+            │   ├── re.cpython-36.pyc
+            │   ├── reprlib.cpython-36.pyc
+            │   ├── shutil.cpython-36.pyc
+            │   ├── site.cpython-36.pyc
+            │   ├── sre_compile.cpython-36.pyc
+            │   ├── sre_constants.cpython-36.pyc
+            │   ├── sre_parse.cpython-36.pyc
+            │   ├── stat.cpython-36.pyc
+            │   ├── struct.cpython-36.pyc
+            │   ├── tarfile.cpython-36.pyc
+            │   ├── tempfile.cpython-36.pyc
+            │   ├── token.cpython-36.pyc
+            │   ├── tokenize.cpython-36.pyc
+            │   ├── types.cpython-36.pyc
+            │   ├── warnings.cpython-36.pyc
+            │   ├── weakref.cpython-36.pyc
+            │   └── _weakrefset.cpython-36.pyc
+            ├── random.py -> /usr/lib/python3.6/random.py
+            ├── reprlib.py -> /usr/lib/python3.6/reprlib.py
+            ├── re.py -> /usr/lib/python3.6/re.py
+            ├── rlcompleter.py -> /usr/lib/python3.6/rlcompleter.py
+            ├── shutil.py -> /usr/lib/python3.6/shutil.py
+            ├── site-packages
+            │   ├── easy_install.py
+            │   ├── pip
+            │   │   ├── __init__.py
+            │   │   ├── _internal
+            │   │   │   ├── build_env.py
+            │   │   │   ├── cache.py
+            │   │   │   ├── cli
+            │   │   │   │   ├── autocompletion.py
+            │   │   │   │   ├── base_command.py
+            │   │   │   │   ├── cmdoptions.py
+            │   │   │   │   ├── __init__.py
+            │   │   │   │   ├── main_parser.py
+            │   │   │   │   ├── parser.py
+            │   │   │   │   ├── __pycache__
+            │   │   │   │   │   ├── autocompletion.cpython-36.pyc
+            │   │   │   │   │   ├── base_command.cpython-36.pyc
+            │   │   │   │   │   ├── cmdoptions.cpython-36.pyc
+            │   │   │   │   │   ├── __init__.cpython-36.pyc
+            │   │   │   │   │   ├── main_parser.cpython-36.pyc
+            │   │   │   │   │   ├── parser.cpython-36.pyc
+            │   │   │   │   │   └── status_codes.cpython-36.pyc
+            │   │   │   │   └── status_codes.py
+            │   │   │   ├── commands
+            │   │   │   │   ├── check.py
+            │   │   │   │   ├── completion.py
+            │   │   │   │   ├── configuration.py
+            │   │   │   │   ├── debug.py
+            │   │   │   │   ├── download.py
+            │   │   │   │   ├── freeze.py
+            │   │   │   │   ├── hash.py
+            │   │   │   │   ├── help.py
+            │   │   │   │   ├── __init__.py
+            │   │   │   │   ├── install.py
+            │   │   │   │   ├── list.py
+            │   │   │   │   ├── __pycache__
+            │   │   │   │   │   ├── check.cpython-36.pyc
+            │   │   │   │   │   ├── completion.cpython-36.pyc
+            │   │   │   │   │   ├── configuration.cpython-36.pyc
+            │   │   │   │   │   ├── debug.cpython-36.pyc
+            │   │   │   │   │   ├── download.cpython-36.pyc
+            │   │   │   │   │   ├── freeze.cpython-36.pyc
+            │   │   │   │   │   ├── hash.cpython-36.pyc
+            │   │   │   │   │   ├── help.cpython-36.pyc
+            │   │   │   │   │   ├── __init__.cpython-36.pyc
+            │   │   │   │   │   ├── install.cpython-36.pyc
+            │   │   │   │   │   ├── list.cpython-36.pyc
+            │   │   │   │   │   ├── search.cpython-36.pyc
+            │   │   │   │   │   ├── show.cpython-36.pyc
+            │   │   │   │   │   ├── uninstall.cpython-36.pyc
+            │   │   │   │   │   └── wheel.cpython-36.pyc
+            │   │   │   │   ├── search.py
+            │   │   │   │   ├── show.py
+            │   │   │   │   ├── uninstall.py
+            │   │   │   │   └── wheel.py
+            │   │   │   ├── configuration.py
+            │   │   │   ├── distributions
+            │   │   │   │   ├── base.py
+            │   │   │   │   ├── __init__.py
+            │   │   │   │   ├── installed.py
+            │   │   │   │   ├── __pycache__
+            │   │   │   │   │   ├── base.cpython-36.pyc
+            │   │   │   │   │   ├── __init__.cpython-36.pyc
+            │   │   │   │   │   ├── installed.cpython-36.pyc
+            │   │   │   │   │   ├── source.cpython-36.pyc
+            │   │   │   │   │   └── wheel.cpython-36.pyc
+            │   │   │   │   ├── source.py
+            │   │   │   │   └── wheel.py
+            │   │   │   ├── download.py
+            │   │   │   ├── exceptions.py
+            │   │   │   ├── index.py
+            │   │   │   ├── __init__.py
+            │   │   │   ├── legacy_resolve.py
+            │   │   │   ├── locations.py
+            │   │   │   ├── models
+            │   │   │   │   ├── candidate.py
+            │   │   │   │   ├── format_control.py
+            │   │   │   │   ├── index.py
+            │   │   │   │   ├── __init__.py
+            │   │   │   │   ├── link.py
+            │   │   │   │   ├── __pycache__
+            │   │   │   │   │   ├── candidate.cpython-36.pyc
+            │   │   │   │   │   ├── format_control.cpython-36.pyc
+            │   │   │   │   │   ├── index.cpython-36.pyc
+            │   │   │   │   │   ├── __init__.cpython-36.pyc
+            │   │   │   │   │   ├── link.cpython-36.pyc
+            │   │   │   │   │   ├── search_scope.cpython-36.pyc
+            │   │   │   │   │   ├── selection_prefs.cpython-36.pyc
+            │   │   │   │   │   └── target_python.cpython-36.pyc
+            │   │   │   │   ├── search_scope.py
+            │   │   │   │   ├── selection_prefs.py
+            │   │   │   │   └── target_python.py
+            │   │   │   ├── operations
+            │   │   │   │   ├── check.py
+            │   │   │   │   ├── freeze.py
+            │   │   │   │   ├── __init__.py
+            │   │   │   │   ├── prepare.py
+            │   │   │   │   └── __pycache__
+            │   │   │   │       ├── check.cpython-36.pyc
+            │   │   │   │       ├── freeze.cpython-36.pyc
+            │   │   │   │       ├── __init__.cpython-36.pyc
+            │   │   │   │       └── prepare.cpython-36.pyc
+            │   │   │   ├── pep425tags.py
+            │   │   │   ├── __pycache__
+            │   │   │   │   ├── build_env.cpython-36.pyc
+            │   │   │   │   ├── cache.cpython-36.pyc
+            │   │   │   │   ├── configuration.cpython-36.pyc
+            │   │   │   │   ├── download.cpython-36.pyc
+            │   │   │   │   ├── exceptions.cpython-36.pyc
+            │   │   │   │   ├── index.cpython-36.pyc
+            │   │   │   │   ├── __init__.cpython-36.pyc
+            │   │   │   │   ├── legacy_resolve.cpython-36.pyc
+            │   │   │   │   ├── locations.cpython-36.pyc
+            │   │   │   │   ├── pep425tags.cpython-36.pyc
+            │   │   │   │   ├── pyproject.cpython-36.pyc
+            │   │   │   │   └── wheel.cpython-36.pyc
+            │   │   │   ├── pyproject.py
+            │   │   │   ├── req
+            │   │   │   │   ├── constructors.py
+            │   │   │   │   ├── __init__.py
+            │   │   │   │   ├── __pycache__
+            │   │   │   │   │   ├── constructors.cpython-36.pyc
+            │   │   │   │   │   ├── __init__.cpython-36.pyc
+            │   │   │   │   │   ├── req_file.cpython-36.pyc
+            │   │   │   │   │   ├── req_install.cpython-36.pyc
+            │   │   │   │   │   ├── req_set.cpython-36.pyc
+            │   │   │   │   │   ├── req_tracker.cpython-36.pyc
+            │   │   │   │   │   └── req_uninstall.cpython-36.pyc
+            │   │   │   │   ├── req_file.py
+            │   │   │   │   ├── req_install.py
+            │   │   │   │   ├── req_set.py
+            │   │   │   │   ├── req_tracker.py
+            │   │   │   │   └── req_uninstall.py
+            │   │   │   ├── utils
+            │   │   │   │   ├── appdirs.py
+            │   │   │   │   ├── compat.py
+            │   │   │   │   ├── deprecation.py
+            │   │   │   │   ├── encoding.py
+            │   │   │   │   ├── filesystem.py
+            │   │   │   │   ├── glibc.py
+            │   │   │   │   ├── hashes.py
+            │   │   │   │   ├── __init__.py
+            │   │   │   │   ├── logging.py
+            │   │   │   │   ├── marker_files.py
+            │   │   │   │   ├── misc.py
+            │   │   │   │   ├── models.py
+            │   │   │   │   ├── outdated.py
+            │   │   │   │   ├── packaging.py
+            │   │   │   │   ├── __pycache__
+            │   │   │   │   │   ├── appdirs.cpython-36.pyc
+            │   │   │   │   │   ├── compat.cpython-36.pyc
+            │   │   │   │   │   ├── deprecation.cpython-36.pyc
+            │   │   │   │   │   ├── encoding.cpython-36.pyc
+            │   │   │   │   │   ├── filesystem.cpython-36.pyc
+            │   │   │   │   │   ├── glibc.cpython-36.pyc
+            │   │   │   │   │   ├── hashes.cpython-36.pyc
+            │   │   │   │   │   ├── __init__.cpython-36.pyc
+            │   │   │   │   │   ├── logging.cpython-36.pyc
+            │   │   │   │   │   ├── marker_files.cpython-36.pyc
+            │   │   │   │   │   ├── misc.cpython-36.pyc
+            │   │   │   │   │   ├── models.cpython-36.pyc
+            │   │   │   │   │   ├── outdated.cpython-36.pyc
+            │   │   │   │   │   ├── packaging.cpython-36.pyc
+            │   │   │   │   │   ├── setuptools_build.cpython-36.pyc
+            │   │   │   │   │   ├── temp_dir.cpython-36.pyc
+            │   │   │   │   │   ├── typing.cpython-36.pyc
+            │   │   │   │   │   ├── ui.cpython-36.pyc
+            │   │   │   │   │   └── virtualenv.cpython-36.pyc
+            │   │   │   │   ├── setuptools_build.py
+            │   │   │   │   ├── temp_dir.py
+            │   │   │   │   ├── typing.py
+            │   │   │   │   ├── ui.py
+            │   │   │   │   └── virtualenv.py
+            │   │   │   ├── vcs
+            │   │   │   │   ├── bazaar.py
+            │   │   │   │   ├── git.py
+            │   │   │   │   ├── __init__.py
+            │   │   │   │   ├── mercurial.py
+            │   │   │   │   ├── __pycache__
+            │   │   │   │   │   ├── bazaar.cpython-36.pyc
+            │   │   │   │   │   ├── git.cpython-36.pyc
+            │   │   │   │   │   ├── __init__.cpython-36.pyc
+            │   │   │   │   │   ├── mercurial.cpython-36.pyc
+            │   │   │   │   │   ├── subversion.cpython-36.pyc
+            │   │   │   │   │   └── versioncontrol.cpython-36.pyc
+            │   │   │   │   ├── subversion.py
+            │   │   │   │   └── versioncontrol.py
+            │   │   │   └── wheel.py
+            │   │   ├── __main__.py
+            │   │   ├── __pycache__
+            │   │   │   ├── __init__.cpython-36.pyc
+            │   │   │   └── __main__.cpython-36.pyc
+            │   │   └── _vendor
+            │   │       ├── appdirs.py
+            │   │       ├── cachecontrol
+            │   │       │   ├── adapter.py
+            │   │       │   ├── cache.py
+            │   │       │   ├── caches
+            │   │       │   │   ├── file_cache.py
+            │   │       │   │   ├── __init__.py
+            │   │       │   │   ├── __pycache__
+            │   │       │   │   │   ├── file_cache.cpython-36.pyc
+            │   │       │   │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   │   └── redis_cache.cpython-36.pyc
+            │   │       │   │   └── redis_cache.py
+            │   │       │   ├── _cmd.py
+            │   │       │   ├── compat.py
+            │   │       │   ├── controller.py
+            │   │       │   ├── filewrapper.py
+            │   │       │   ├── heuristics.py
+            │   │       │   ├── __init__.py
+            │   │       │   ├── __pycache__
+            │   │       │   │   ├── adapter.cpython-36.pyc
+            │   │       │   │   ├── cache.cpython-36.pyc
+            │   │       │   │   ├── _cmd.cpython-36.pyc
+            │   │       │   │   ├── compat.cpython-36.pyc
+            │   │       │   │   ├── controller.cpython-36.pyc
+            │   │       │   │   ├── filewrapper.cpython-36.pyc
+            │   │       │   │   ├── heuristics.cpython-36.pyc
+            │   │       │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   ├── serialize.cpython-36.pyc
+            │   │       │   │   └── wrapper.cpython-36.pyc
+            │   │       │   ├── serialize.py
+            │   │       │   └── wrapper.py
+            │   │       ├── certifi
+            │   │       │   ├── cacert.pem
+            │   │       │   ├── core.py
+            │   │       │   ├── __init__.py
+            │   │       │   ├── __main__.py
+            │   │       │   └── __pycache__
+            │   │       │       ├── core.cpython-36.pyc
+            │   │       │       ├── __init__.cpython-36.pyc
+            │   │       │       └── __main__.cpython-36.pyc
+            │   │       ├── chardet
+            │   │       │   ├── big5freq.py
+            │   │       │   ├── big5prober.py
+            │   │       │   ├── chardistribution.py
+            │   │       │   ├── charsetgroupprober.py
+            │   │       │   ├── charsetprober.py
+            │   │       │   ├── cli
+            │   │       │   │   ├── chardetect.py
+            │   │       │   │   ├── __init__.py
+            │   │       │   │   └── __pycache__
+            │   │       │   │       ├── chardetect.cpython-36.pyc
+            │   │       │   │       └── __init__.cpython-36.pyc
+            │   │       │   ├── codingstatemachine.py
+            │   │       │   ├── compat.py
+            │   │       │   ├── cp949prober.py
+            │   │       │   ├── enums.py
+            │   │       │   ├── escprober.py
+            │   │       │   ├── escsm.py
+            │   │       │   ├── eucjpprober.py
+            │   │       │   ├── euckrfreq.py
+            │   │       │   ├── euckrprober.py
+            │   │       │   ├── euctwfreq.py
+            │   │       │   ├── euctwprober.py
+            │   │       │   ├── gb2312freq.py
+            │   │       │   ├── gb2312prober.py
+            │   │       │   ├── hebrewprober.py
+            │   │       │   ├── __init__.py
+            │   │       │   ├── jisfreq.py
+            │   │       │   ├── jpcntx.py
+            │   │       │   ├── langbulgarianmodel.py
+            │   │       │   ├── langcyrillicmodel.py
+            │   │       │   ├── langgreekmodel.py
+            │   │       │   ├── langhebrewmodel.py
+            │   │       │   ├── langhungarianmodel.py
+            │   │       │   ├── langthaimodel.py
+            │   │       │   ├── langturkishmodel.py
+            │   │       │   ├── latin1prober.py
+            │   │       │   ├── mbcharsetprober.py
+            │   │       │   ├── mbcsgroupprober.py
+            │   │       │   ├── mbcssm.py
+            │   │       │   ├── __pycache__
+            │   │       │   │   ├── big5freq.cpython-36.pyc
+            │   │       │   │   ├── big5prober.cpython-36.pyc
+            │   │       │   │   ├── chardistribution.cpython-36.pyc
+            │   │       │   │   ├── charsetgroupprober.cpython-36.pyc
+            │   │       │   │   ├── charsetprober.cpython-36.pyc
+            │   │       │   │   ├── codingstatemachine.cpython-36.pyc
+            │   │       │   │   ├── compat.cpython-36.pyc
+            │   │       │   │   ├── cp949prober.cpython-36.pyc
+            │   │       │   │   ├── enums.cpython-36.pyc
+            │   │       │   │   ├── escprober.cpython-36.pyc
+            │   │       │   │   ├── escsm.cpython-36.pyc
+            │   │       │   │   ├── eucjpprober.cpython-36.pyc
+            │   │       │   │   ├── euckrfreq.cpython-36.pyc
+            │   │       │   │   ├── euckrprober.cpython-36.pyc
+            │   │       │   │   ├── euctwfreq.cpython-36.pyc
+            │   │       │   │   ├── euctwprober.cpython-36.pyc
+            │   │       │   │   ├── gb2312freq.cpython-36.pyc
+            │   │       │   │   ├── gb2312prober.cpython-36.pyc
+            │   │       │   │   ├── hebrewprober.cpython-36.pyc
+            │   │       │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   ├── jisfreq.cpython-36.pyc
+            │   │       │   │   ├── jpcntx.cpython-36.pyc
+            │   │       │   │   ├── langbulgarianmodel.cpython-36.pyc
+            │   │       │   │   ├── langcyrillicmodel.cpython-36.pyc
+            │   │       │   │   ├── langgreekmodel.cpython-36.pyc
+            │   │       │   │   ├── langhebrewmodel.cpython-36.pyc
+            │   │       │   │   ├── langhungarianmodel.cpython-36.pyc
+            │   │       │   │   ├── langthaimodel.cpython-36.pyc
+            │   │       │   │   ├── langturkishmodel.cpython-36.pyc
+            │   │       │   │   ├── latin1prober.cpython-36.pyc
+            │   │       │   │   ├── mbcharsetprober.cpython-36.pyc
+            │   │       │   │   ├── mbcsgroupprober.cpython-36.pyc
+            │   │       │   │   ├── mbcssm.cpython-36.pyc
+            │   │       │   │   ├── sbcharsetprober.cpython-36.pyc
+            │   │       │   │   ├── sbcsgroupprober.cpython-36.pyc
+            │   │       │   │   ├── sjisprober.cpython-36.pyc
+            │   │       │   │   ├── universaldetector.cpython-36.pyc
+            │   │       │   │   ├── utf8prober.cpython-36.pyc
+            │   │       │   │   └── version.cpython-36.pyc
+            │   │       │   ├── sbcharsetprober.py
+            │   │       │   ├── sbcsgroupprober.py
+            │   │       │   ├── sjisprober.py
+            │   │       │   ├── universaldetector.py
+            │   │       │   ├── utf8prober.py
+            │   │       │   └── version.py
+            │   │       ├── colorama
+            │   │       │   ├── ansi.py
+            │   │       │   ├── ansitowin32.py
+            │   │       │   ├── initialise.py
+            │   │       │   ├── __init__.py
+            │   │       │   ├── __pycache__
+            │   │       │   │   ├── ansi.cpython-36.pyc
+            │   │       │   │   ├── ansitowin32.cpython-36.pyc
+            │   │       │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   ├── initialise.cpython-36.pyc
+            │   │       │   │   ├── win32.cpython-36.pyc
+            │   │       │   │   └── winterm.cpython-36.pyc
+            │   │       │   ├── win32.py
+            │   │       │   └── winterm.py
+            │   │       ├── distlib
+            │   │       │   ├── _backport
+            │   │       │   │   ├── __init__.py
+            │   │       │   │   ├── misc.py
+            │   │       │   │   ├── __pycache__
+            │   │       │   │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   │   ├── misc.cpython-36.pyc
+            │   │       │   │   │   ├── shutil.cpython-36.pyc
+            │   │       │   │   │   ├── sysconfig.cpython-36.pyc
+            │   │       │   │   │   └── tarfile.cpython-36.pyc
+            │   │       │   │   ├── shutil.py
+            │   │       │   │   ├── sysconfig.cfg
+            │   │       │   │   ├── sysconfig.py
+            │   │       │   │   └── tarfile.py
+            │   │       │   ├── compat.py
+            │   │       │   ├── database.py
+            │   │       │   ├── index.py
+            │   │       │   ├── __init__.py
+            │   │       │   ├── locators.py
+            │   │       │   ├── manifest.py
+            │   │       │   ├── markers.py
+            │   │       │   ├── metadata.py
+            │   │       │   ├── __pycache__
+            │   │       │   │   ├── compat.cpython-36.pyc
+            │   │       │   │   ├── database.cpython-36.pyc
+            │   │       │   │   ├── index.cpython-36.pyc
+            │   │       │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   ├── locators.cpython-36.pyc
+            │   │       │   │   ├── manifest.cpython-36.pyc
+            │   │       │   │   ├── markers.cpython-36.pyc
+            │   │       │   │   ├── metadata.cpython-36.pyc
+            │   │       │   │   ├── resources.cpython-36.pyc
+            │   │       │   │   ├── scripts.cpython-36.pyc
+            │   │       │   │   ├── util.cpython-36.pyc
+            │   │       │   │   ├── version.cpython-36.pyc
+            │   │       │   │   └── wheel.cpython-36.pyc
+            │   │       │   ├── resources.py
+            │   │       │   ├── scripts.py
+            │   │       │   ├── t32.exe
+            │   │       │   ├── t64.exe
+            │   │       │   ├── util.py
+            │   │       │   ├── version.py
+            │   │       │   ├── w32.exe
+            │   │       │   ├── w64.exe
+            │   │       │   └── wheel.py
+            │   │       ├── distro.py
+            │   │       ├── html5lib
+            │   │       │   ├── constants.py
+            │   │       │   ├── filters
+            │   │       │   │   ├── alphabeticalattributes.py
+            │   │       │   │   ├── base.py
+            │   │       │   │   ├── __init__.py
+            │   │       │   │   ├── inject_meta_charset.py
+            │   │       │   │   ├── lint.py
+            │   │       │   │   ├── optionaltags.py
+            │   │       │   │   ├── __pycache__
+            │   │       │   │   │   ├── alphabeticalattributes.cpython-36.pyc
+            │   │       │   │   │   ├── base.cpython-36.pyc
+            │   │       │   │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   │   ├── inject_meta_charset.cpython-36.pyc
+            │   │       │   │   │   ├── lint.cpython-36.pyc
+            │   │       │   │   │   ├── optionaltags.cpython-36.pyc
+            │   │       │   │   │   ├── sanitizer.cpython-36.pyc
+            │   │       │   │   │   └── whitespace.cpython-36.pyc
+            │   │       │   │   ├── sanitizer.py
+            │   │       │   │   └── whitespace.py
+            │   │       │   ├── html5parser.py
+            │   │       │   ├── _ihatexml.py
+            │   │       │   ├── __init__.py
+            │   │       │   ├── _inputstream.py
+            │   │       │   ├── __pycache__
+            │   │       │   │   ├── constants.cpython-36.pyc
+            │   │       │   │   ├── html5parser.cpython-36.pyc
+            │   │       │   │   ├── _ihatexml.cpython-36.pyc
+            │   │       │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   ├── _inputstream.cpython-36.pyc
+            │   │       │   │   ├── serializer.cpython-36.pyc
+            │   │       │   │   ├── _tokenizer.cpython-36.pyc
+            │   │       │   │   └── _utils.cpython-36.pyc
+            │   │       │   ├── serializer.py
+            │   │       │   ├── _tokenizer.py
+            │   │       │   ├── treeadapters
+            │   │       │   │   ├── genshi.py
+            │   │       │   │   ├── __init__.py
+            │   │       │   │   ├── __pycache__
+            │   │       │   │   │   ├── genshi.cpython-36.pyc
+            │   │       │   │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   │   └── sax.cpython-36.pyc
+            │   │       │   │   └── sax.py
+            │   │       │   ├── treebuilders
+            │   │       │   │   ├── base.py
+            │   │       │   │   ├── dom.py
+            │   │       │   │   ├── etree_lxml.py
+            │   │       │   │   ├── etree.py
+            │   │       │   │   ├── __init__.py
+            │   │       │   │   └── __pycache__
+            │   │       │   │       ├── base.cpython-36.pyc
+            │   │       │   │       ├── dom.cpython-36.pyc
+            │   │       │   │       ├── etree.cpython-36.pyc
+            │   │       │   │       ├── etree_lxml.cpython-36.pyc
+            │   │       │   │       └── __init__.cpython-36.pyc
+            │   │       │   ├── treewalkers
+            │   │       │   │   ├── base.py
+            │   │       │   │   ├── dom.py
+            │   │       │   │   ├── etree_lxml.py
+            │   │       │   │   ├── etree.py
+            │   │       │   │   ├── genshi.py
+            │   │       │   │   ├── __init__.py
+            │   │       │   │   └── __pycache__
+            │   │       │   │       ├── base.cpython-36.pyc
+            │   │       │   │       ├── dom.cpython-36.pyc
+            │   │       │   │       ├── etree.cpython-36.pyc
+            │   │       │   │       ├── etree_lxml.cpython-36.pyc
+            │   │       │   │       ├── genshi.cpython-36.pyc
+            │   │       │   │       └── __init__.cpython-36.pyc
+            │   │       │   ├── _trie
+            │   │       │   │   ├── _base.py
+            │   │       │   │   ├── datrie.py
+            │   │       │   │   ├── __init__.py
+            │   │       │   │   ├── __pycache__
+            │   │       │   │   │   ├── _base.cpython-36.pyc
+            │   │       │   │   │   ├── datrie.cpython-36.pyc
+            │   │       │   │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   │   └── py.cpython-36.pyc
+            │   │       │   │   └── py.py
+            │   │       │   └── _utils.py
+            │   │       ├── idna
+            │   │       │   ├── codec.py
+            │   │       │   ├── compat.py
+            │   │       │   ├── core.py
+            │   │       │   ├── idnadata.py
+            │   │       │   ├── __init__.py
+            │   │       │   ├── intranges.py
+            │   │       │   ├── package_data.py
+            │   │       │   ├── __pycache__
+            │   │       │   │   ├── codec.cpython-36.pyc
+            │   │       │   │   ├── compat.cpython-36.pyc
+            │   │       │   │   ├── core.cpython-36.pyc
+            │   │       │   │   ├── idnadata.cpython-36.pyc
+            │   │       │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   ├── intranges.cpython-36.pyc
+            │   │       │   │   ├── package_data.cpython-36.pyc
+            │   │       │   │   └── uts46data.cpython-36.pyc
+            │   │       │   └── uts46data.py
+            │   │       ├── __init__.py
+            │   │       ├── ipaddress.py
+            │   │       ├── lockfile
+            │   │       │   ├── __init__.py
+            │   │       │   ├── linklockfile.py
+            │   │       │   ├── mkdirlockfile.py
+            │   │       │   ├── pidlockfile.py
+            │   │       │   ├── __pycache__
+            │   │       │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   ├── linklockfile.cpython-36.pyc
+            │   │       │   │   ├── mkdirlockfile.cpython-36.pyc
+            │   │       │   │   ├── pidlockfile.cpython-36.pyc
+            │   │       │   │   ├── sqlitelockfile.cpython-36.pyc
+            │   │       │   │   └── symlinklockfile.cpython-36.pyc
+            │   │       │   ├── sqlitelockfile.py
+            │   │       │   └── symlinklockfile.py
+            │   │       ├── msgpack
+            │   │       │   ├── exceptions.py
+            │   │       │   ├── fallback.py
+            │   │       │   ├── __init__.py
+            │   │       │   ├── __pycache__
+            │   │       │   │   ├── exceptions.cpython-36.pyc
+            │   │       │   │   ├── fallback.cpython-36.pyc
+            │   │       │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   └── _version.cpython-36.pyc
+            │   │       │   └── _version.py
+            │   │       ├── packaging
+            │   │       │   ├── __about__.py
+            │   │       │   ├── _compat.py
+            │   │       │   ├── __init__.py
+            │   │       │   ├── markers.py
+            │   │       │   ├── __pycache__
+            │   │       │   │   ├── __about__.cpython-36.pyc
+            │   │       │   │   ├── _compat.cpython-36.pyc
+            │   │       │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   ├── markers.cpython-36.pyc
+            │   │       │   │   ├── requirements.cpython-36.pyc
+            │   │       │   │   ├── specifiers.cpython-36.pyc
+            │   │       │   │   ├── _structures.cpython-36.pyc
+            │   │       │   │   ├── utils.cpython-36.pyc
+            │   │       │   │   └── version.cpython-36.pyc
+            │   │       │   ├── requirements.py
+            │   │       │   ├── specifiers.py
+            │   │       │   ├── _structures.py
+            │   │       │   ├── utils.py
+            │   │       │   └── version.py
+            │   │       ├── pep517
+            │   │       │   ├── build.py
+            │   │       │   ├── check.py
+            │   │       │   ├── colorlog.py
+            │   │       │   ├── compat.py
+            │   │       │   ├── envbuild.py
+            │   │       │   ├── __init__.py
+            │   │       │   ├── _in_process.py
+            │   │       │   ├── __pycache__
+            │   │       │   │   ├── build.cpython-36.pyc
+            │   │       │   │   ├── check.cpython-36.pyc
+            │   │       │   │   ├── colorlog.cpython-36.pyc
+            │   │       │   │   ├── compat.cpython-36.pyc
+            │   │       │   │   ├── envbuild.cpython-36.pyc
+            │   │       │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   ├── _in_process.cpython-36.pyc
+            │   │       │   │   └── wrappers.cpython-36.pyc
+            │   │       │   └── wrappers.py
+            │   │       ├── pkg_resources
+            │   │       │   ├── __init__.py
+            │   │       │   ├── py31compat.py
+            │   │       │   └── __pycache__
+            │   │       │       ├── __init__.cpython-36.pyc
+            │   │       │       └── py31compat.cpython-36.pyc
+            │   │       ├── progress
+            │   │       │   ├── bar.py
+            │   │       │   ├── counter.py
+            │   │       │   ├── __init__.py
+            │   │       │   ├── __pycache__
+            │   │       │   │   ├── bar.cpython-36.pyc
+            │   │       │   │   ├── counter.cpython-36.pyc
+            │   │       │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   └── spinner.cpython-36.pyc
+            │   │       │   └── spinner.py
+            │   │       ├── __pycache__
+            │   │       │   ├── appdirs.cpython-36.pyc
+            │   │       │   ├── distro.cpython-36.pyc
+            │   │       │   ├── __init__.cpython-36.pyc
+            │   │       │   ├── ipaddress.cpython-36.pyc
+            │   │       │   ├── pyparsing.cpython-36.pyc
+            │   │       │   ├── retrying.cpython-36.pyc
+            │   │       │   └── six.cpython-36.pyc
+            │   │       ├── pyparsing.py
+            │   │       ├── pytoml
+            │   │       │   ├── core.py
+            │   │       │   ├── __init__.py
+            │   │       │   ├── parser.py
+            │   │       │   ├── __pycache__
+            │   │       │   │   ├── core.cpython-36.pyc
+            │   │       │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   ├── parser.cpython-36.pyc
+            │   │       │   │   ├── test.cpython-36.pyc
+            │   │       │   │   ├── utils.cpython-36.pyc
+            │   │       │   │   └── writer.cpython-36.pyc
+            │   │       │   ├── test.py
+            │   │       │   ├── utils.py
+            │   │       │   └── writer.py
+            │   │       ├── requests
+            │   │       │   ├── adapters.py
+            │   │       │   ├── api.py
+            │   │       │   ├── auth.py
+            │   │       │   ├── certs.py
+            │   │       │   ├── compat.py
+            │   │       │   ├── cookies.py
+            │   │       │   ├── exceptions.py
+            │   │       │   ├── help.py
+            │   │       │   ├── hooks.py
+            │   │       │   ├── __init__.py
+            │   │       │   ├── _internal_utils.py
+            │   │       │   ├── models.py
+            │   │       │   ├── packages.py
+            │   │       │   ├── __pycache__
+            │   │       │   │   ├── adapters.cpython-36.pyc
+            │   │       │   │   ├── api.cpython-36.pyc
+            │   │       │   │   ├── auth.cpython-36.pyc
+            │   │       │   │   ├── certs.cpython-36.pyc
+            │   │       │   │   ├── compat.cpython-36.pyc
+            │   │       │   │   ├── cookies.cpython-36.pyc
+            │   │       │   │   ├── exceptions.cpython-36.pyc
+            │   │       │   │   ├── help.cpython-36.pyc
+            │   │       │   │   ├── hooks.cpython-36.pyc
+            │   │       │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   ├── _internal_utils.cpython-36.pyc
+            │   │       │   │   ├── models.cpython-36.pyc
+            │   │       │   │   ├── packages.cpython-36.pyc
+            │   │       │   │   ├── sessions.cpython-36.pyc
+            │   │       │   │   ├── status_codes.cpython-36.pyc
+            │   │       │   │   ├── structures.cpython-36.pyc
+            │   │       │   │   ├── utils.cpython-36.pyc
+            │   │       │   │   └── __version__.cpython-36.pyc
+            │   │       │   ├── sessions.py
+            │   │       │   ├── status_codes.py
+            │   │       │   ├── structures.py
+            │   │       │   ├── utils.py
+            │   │       │   └── __version__.py
+            │   │       ├── retrying.py
+            │   │       ├── six.py
+            │   │       ├── urllib3
+            │   │       │   ├── _collections.py
+            │   │       │   ├── connectionpool.py
+            │   │       │   ├── connection.py
+            │   │       │   ├── contrib
+            │   │       │   │   ├── _appengine_environ.py
+            │   │       │   │   ├── appengine.py
+            │   │       │   │   ├── __init__.py
+            │   │       │   │   ├── ntlmpool.py
+            │   │       │   │   ├── __pycache__
+            │   │       │   │   │   ├── appengine.cpython-36.pyc
+            │   │       │   │   │   ├── _appengine_environ.cpython-36.pyc
+            │   │       │   │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   │   ├── ntlmpool.cpython-36.pyc
+            │   │       │   │   │   ├── pyopenssl.cpython-36.pyc
+            │   │       │   │   │   ├── securetransport.cpython-36.pyc
+            │   │       │   │   │   └── socks.cpython-36.pyc
+            │   │       │   │   ├── pyopenssl.py
+            │   │       │   │   ├── _securetransport
+            │   │       │   │   │   ├── bindings.py
+            │   │       │   │   │   ├── __init__.py
+            │   │       │   │   │   ├── low_level.py
+            │   │       │   │   │   └── __pycache__
+            │   │       │   │   │       ├── bindings.cpython-36.pyc
+            │   │       │   │   │       ├── __init__.cpython-36.pyc
+            │   │       │   │   │       └── low_level.cpython-36.pyc
+            │   │       │   │   ├── securetransport.py
+            │   │       │   │   └── socks.py
+            │   │       │   ├── exceptions.py
+            │   │       │   ├── fields.py
+            │   │       │   ├── filepost.py
+            │   │       │   ├── __init__.py
+            │   │       │   ├── packages
+            │   │       │   │   ├── backports
+            │   │       │   │   │   ├── __init__.py
+            │   │       │   │   │   ├── makefile.py
+            │   │       │   │   │   └── __pycache__
+            │   │       │   │   │       ├── __init__.cpython-36.pyc
+            │   │       │   │   │       └── makefile.cpython-36.pyc
+            │   │       │   │   ├── __init__.py
+            │   │       │   │   ├── __pycache__
+            │   │       │   │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   │   └── six.cpython-36.pyc
+            │   │       │   │   ├── rfc3986
+            │   │       │   │   │   ├── abnf_regexp.py
+            │   │       │   │   │   ├── api.py
+            │   │       │   │   │   ├── builder.py
+            │   │       │   │   │   ├── compat.py
+            │   │       │   │   │   ├── exceptions.py
+            │   │       │   │   │   ├── __init__.py
+            │   │       │   │   │   ├── iri.py
+            │   │       │   │   │   ├── misc.py
+            │   │       │   │   │   ├── _mixin.py
+            │   │       │   │   │   ├── normalizers.py
+            │   │       │   │   │   ├── parseresult.py
+            │   │       │   │   │   ├── __pycache__
+            │   │       │   │   │   │   ├── abnf_regexp.cpython-36.pyc
+            │   │       │   │   │   │   ├── api.cpython-36.pyc
+            │   │       │   │   │   │   ├── builder.cpython-36.pyc
+            │   │       │   │   │   │   ├── compat.cpython-36.pyc
+            │   │       │   │   │   │   ├── exceptions.cpython-36.pyc
+            │   │       │   │   │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   │   │   ├── iri.cpython-36.pyc
+            │   │       │   │   │   │   ├── misc.cpython-36.pyc
+            │   │       │   │   │   │   ├── _mixin.cpython-36.pyc
+            │   │       │   │   │   │   ├── normalizers.cpython-36.pyc
+            │   │       │   │   │   │   ├── parseresult.cpython-36.pyc
+            │   │       │   │   │   │   ├── uri.cpython-36.pyc
+            │   │       │   │   │   │   └── validators.cpython-36.pyc
+            │   │       │   │   │   ├── uri.py
+            │   │       │   │   │   └── validators.py
+            │   │       │   │   ├── six.py
+            │   │       │   │   └── ssl_match_hostname
+            │   │       │   │       ├── _implementation.py
+            │   │       │   │       ├── __init__.py
+            │   │       │   │       └── __pycache__
+            │   │       │   │           ├── _implementation.cpython-36.pyc
+            │   │       │   │           └── __init__.cpython-36.pyc
+            │   │       │   ├── poolmanager.py
+            │   │       │   ├── __pycache__
+            │   │       │   │   ├── _collections.cpython-36.pyc
+            │   │       │   │   ├── connection.cpython-36.pyc
+            │   │       │   │   ├── connectionpool.cpython-36.pyc
+            │   │       │   │   ├── exceptions.cpython-36.pyc
+            │   │       │   │   ├── fields.cpython-36.pyc
+            │   │       │   │   ├── filepost.cpython-36.pyc
+            │   │       │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   ├── poolmanager.cpython-36.pyc
+            │   │       │   │   ├── request.cpython-36.pyc
+            │   │       │   │   └── response.cpython-36.pyc
+            │   │       │   ├── request.py
+            │   │       │   ├── response.py
+            │   │       │   └── util
+            │   │       │       ├── connection.py
+            │   │       │       ├── __init__.py
+            │   │       │       ├── __pycache__
+            │   │       │       │   ├── connection.cpython-36.pyc
+            │   │       │       │   ├── __init__.cpython-36.pyc
+            │   │       │       │   ├── queue.cpython-36.pyc
+            │   │       │       │   ├── request.cpython-36.pyc
+            │   │       │       │   ├── response.cpython-36.pyc
+            │   │       │       │   ├── retry.cpython-36.pyc
+            │   │       │       │   ├── ssl_.cpython-36.pyc
+            │   │       │       │   ├── timeout.cpython-36.pyc
+            │   │       │       │   ├── url.cpython-36.pyc
+            │   │       │       │   └── wait.cpython-36.pyc
+            │   │       │       ├── queue.py
+            │   │       │       ├── request.py
+            │   │       │       ├── response.py
+            │   │       │       ├── retry.py
+            │   │       │       ├── ssl_.py
+            │   │       │       ├── timeout.py
+            │   │       │       ├── url.py
+            │   │       │       └── wait.py
+            │   │       └── webencodings
+            │   │           ├── __init__.py
+            │   │           ├── labels.py
+            │   │           ├── mklabels.py
+            │   │           ├── __pycache__
+            │   │           │   ├── __init__.cpython-36.pyc
+            │   │           │   ├── labels.cpython-36.pyc
+            │   │           │   ├── mklabels.cpython-36.pyc
+            │   │           │   ├── tests.cpython-36.pyc
+            │   │           │   └── x_user_defined.cpython-36.pyc
+            │   │           ├── tests.py
+            │   │           └── x_user_defined.py
+            │   ├── pip-19.2.3.dist-info
+            │   │   ├── entry_points.txt
+            │   │   ├── INSTALLER
+            │   │   ├── LICENSE.txt
+            │   │   ├── METADATA
+            │   │   ├── RECORD
+            │   │   ├── top_level.txt
+            │   │   └── WHEEL
+            │   ├── pkg_resources
+            │   │   ├── extern
+            │   │   │   ├── __init__.py
+            │   │   │   └── __pycache__
+            │   │   │       └── __init__.cpython-36.pyc
+            │   │   ├── __init__.py
+            │   │   ├── py31compat.py
+            │   │   ├── __pycache__
+            │   │   │   ├── __init__.cpython-36.pyc
+            │   │   │   └── py31compat.cpython-36.pyc
+            │   │   └── _vendor
+            │   │       ├── appdirs.py
+            │   │       ├── __init__.py
+            │   │       ├── packaging
+            │   │       │   ├── __about__.py
+            │   │       │   ├── _compat.py
+            │   │       │   ├── __init__.py
+            │   │       │   ├── markers.py
+            │   │       │   ├── __pycache__
+            │   │       │   │   ├── __about__.cpython-36.pyc
+            │   │       │   │   ├── _compat.cpython-36.pyc
+            │   │       │   │   ├── __init__.cpython-36.pyc
+            │   │       │   │   ├── markers.cpython-36.pyc
+            │   │       │   │   ├── requirements.cpython-36.pyc
+            │   │       │   │   ├── specifiers.cpython-36.pyc
+            │   │       │   │   ├── _structures.cpython-36.pyc
+            │   │       │   │   ├── utils.cpython-36.pyc
+            │   │       │   │   └── version.cpython-36.pyc
+            │   │       │   ├── requirements.py
+            │   │       │   ├── specifiers.py
+            │   │       │   ├── _structures.py
+            │   │       │   ├── utils.py
+            │   │       │   └── version.py
+            │   │       ├── __pycache__
+            │   │       │   ├── appdirs.cpython-36.pyc
+            │   │       │   ├── __init__.cpython-36.pyc
+            │   │       │   ├── pyparsing.cpython-36.pyc
+            │   │       │   └── six.cpython-36.pyc
+            │   │       ├── pyparsing.py
+            │   │       └── six.py
+            │   ├── __pycache__
+            │   │   └── easy_install.cpython-36.pyc
+            │   ├── setuptools
+            │   │   ├── archive_util.py
+            │   │   ├── build_meta.py
+            │   │   ├── cli-32.exe
+            │   │   ├── cli-64.exe
+            │   │   ├── cli.exe
+            │   │   ├── command
+            │   │   │   ├── alias.py
+            │   │   │   ├── bdist_egg.py
+            │   │   │   ├── bdist_rpm.py
+            │   │   │   ├── bdist_wininst.py
+            │   │   │   ├── build_clib.py
+            │   │   │   ├── build_ext.py
+            │   │   │   ├── build_py.py
+            │   │   │   ├── develop.py
+            │   │   │   ├── dist_info.py
+            │   │   │   ├── easy_install.py
+            │   │   │   ├── egg_info.py
+            │   │   │   ├── __init__.py
+            │   │   │   ├── install_egg_info.py
+            │   │   │   ├── install_lib.py
+            │   │   │   ├── install.py
+            │   │   │   ├── install_scripts.py
+            │   │   │   ├── launcher manifest.xml
+            │   │   │   ├── py36compat.py
+            │   │   │   ├── __pycache__
+            │   │   │   │   ├── alias.cpython-36.pyc
+            │   │   │   │   ├── bdist_egg.cpython-36.pyc
+            │   │   │   │   ├── bdist_rpm.cpython-36.pyc
+            │   │   │   │   ├── bdist_wininst.cpython-36.pyc
+            │   │   │   │   ├── build_clib.cpython-36.pyc
+            │   │   │   │   ├── build_ext.cpython-36.pyc
+            │   │   │   │   ├── build_py.cpython-36.pyc
+            │   │   │   │   ├── develop.cpython-36.pyc
+            │   │   │   │   ├── dist_info.cpython-36.pyc
+            │   │   │   │   ├── easy_install.cpython-36.pyc
+            │   │   │   │   ├── egg_info.cpython-36.pyc
+            │   │   │   │   ├── __init__.cpython-36.pyc
+            │   │   │   │   ├── install.cpython-36.pyc
+            │   │   │   │   ├── install_egg_info.cpython-36.pyc
+            │   │   │   │   ├── install_lib.cpython-36.pyc
+            │   │   │   │   ├── install_scripts.cpython-36.pyc
+            │   │   │   │   ├── py36compat.cpython-36.pyc
+            │   │   │   │   ├── register.cpython-36.pyc
+            │   │   │   │   ├── rotate.cpython-36.pyc
+            │   │   │   │   ├── saveopts.cpython-36.pyc
+            │   │   │   │   ├── sdist.cpython-36.pyc
+            │   │   │   │   ├── setopt.cpython-36.pyc
+            │   │   │   │   ├── test.cpython-36.pyc
+            │   │   │   │   ├── upload.cpython-36.pyc
+            │   │   │   │   └── upload_docs.cpython-36.pyc
+            │   │   │   ├── register.py
+            │   │   │   ├── rotate.py
+            │   │   │   ├── saveopts.py
+            │   │   │   ├── sdist.py
+            │   │   │   ├── setopt.py
+            │   │   │   ├── test.py
+            │   │   │   ├── upload_docs.py
+            │   │   │   └── upload.py
+            │   │   ├── config.py
+            │   │   ├── depends.py
+            │   │   ├── _deprecation_warning.py
+            │   │   ├── dep_util.py
+            │   │   ├── dist.py
+            │   │   ├── extension.py
+            │   │   ├── extern
+            │   │   │   ├── __init__.py
+            │   │   │   └── __pycache__
+            │   │   │       └── __init__.cpython-36.pyc
+            │   │   ├── glibc.py
+            │   │   ├── glob.py
+            │   │   ├── gui-32.exe
+            │   │   ├── gui-64.exe
+            │   │   ├── gui.exe
+            │   │   ├── __init__.py
+            │   │   ├── launch.py
+            │   │   ├── lib2to3_ex.py
+            │   │   ├── monkey.py
+            │   │   ├── msvc.py
+            │   │   ├── namespaces.py
+            │   │   ├── package_index.py
+            │   │   ├── pep425tags.py
+            │   │   ├── py27compat.py
+            │   │   ├── py31compat.py
+            │   │   ├── py33compat.py
+            │   │   ├── __pycache__
+            │   │   │   ├── archive_util.cpython-36.pyc
+            │   │   │   ├── build_meta.cpython-36.pyc
+            │   │   │   ├── config.cpython-36.pyc
+            │   │   │   ├── depends.cpython-36.pyc
+            │   │   │   ├── _deprecation_warning.cpython-36.pyc
+            │   │   │   ├── dep_util.cpython-36.pyc
+            │   │   │   ├── dist.cpython-36.pyc
+            │   │   │   ├── extension.cpython-36.pyc
+            │   │   │   ├── glibc.cpython-36.pyc
+            │   │   │   ├── glob.cpython-36.pyc
+            │   │   │   ├── __init__.cpython-36.pyc
+            │   │   │   ├── launch.cpython-36.pyc
+            │   │   │   ├── lib2to3_ex.cpython-36.pyc
+            │   │   │   ├── monkey.cpython-36.pyc
+            │   │   │   ├── msvc.cpython-36.pyc
+            │   │   │   ├── namespaces.cpython-36.pyc
+            │   │   │   ├── package_index.cpython-36.pyc
+            │   │   │   ├── pep425tags.cpython-36.pyc
+            │   │   │   ├── py27compat.cpython-36.pyc
+            │   │   │   ├── py31compat.cpython-36.pyc
+            │   │   │   ├── py33compat.cpython-36.pyc
+            │   │   │   ├── sandbox.cpython-36.pyc
+            │   │   │   ├── site-patch.cpython-36.pyc
+            │   │   │   ├── ssl_support.cpython-36.pyc
+            │   │   │   ├── unicode_utils.cpython-36.pyc
+            │   │   │   ├── version.cpython-36.pyc
+            │   │   │   ├── wheel.cpython-36.pyc
+            │   │   │   └── windows_support.cpython-36.pyc
+            │   │   ├── sandbox.py
+            │   │   ├── script (dev).tmpl
+            │   │   ├── script.tmpl
+            │   │   ├── site-patch.py
+            │   │   ├── ssl_support.py
+            │   │   ├── unicode_utils.py
+            │   │   ├── _vendor
+            │   │   │   ├── __init__.py
+            │   │   │   ├── packaging
+            │   │   │   │   ├── __about__.py
+            │   │   │   │   ├── _compat.py
+            │   │   │   │   ├── __init__.py
+            │   │   │   │   ├── markers.py
+            │   │   │   │   ├── __pycache__
+            │   │   │   │   │   ├── __about__.cpython-36.pyc
+            │   │   │   │   │   ├── _compat.cpython-36.pyc
+            │   │   │   │   │   ├── __init__.cpython-36.pyc
+            │   │   │   │   │   ├── markers.cpython-36.pyc
+            │   │   │   │   │   ├── requirements.cpython-36.pyc
+            │   │   │   │   │   ├── specifiers.cpython-36.pyc
+            │   │   │   │   │   ├── _structures.cpython-36.pyc
+            │   │   │   │   │   ├── utils.cpython-36.pyc
+            │   │   │   │   │   └── version.cpython-36.pyc
+            │   │   │   │   ├── requirements.py
+            │   │   │   │   ├── specifiers.py
+            │   │   │   │   ├── _structures.py
+            │   │   │   │   ├── utils.py
+            │   │   │   │   └── version.py
+            │   │   │   ├── __pycache__
+            │   │   │   │   ├── __init__.cpython-36.pyc
+            │   │   │   │   ├── pyparsing.cpython-36.pyc
+            │   │   │   │   └── six.cpython-36.pyc
+            │   │   │   ├── pyparsing.py
+            │   │   │   └── six.py
+            │   │   ├── version.py
+            │   │   ├── wheel.py
+            │   │   └── windows_support.py
+            │   ├── setuptools-41.2.0.dist-info
+            │   │   ├── dependency_links.txt
+            │   │   ├── entry_points.txt
+            │   │   ├── INSTALLER
+            │   │   ├── LICENSE
+            │   │   ├── METADATA
+            │   │   ├── RECORD
+            │   │   ├── top_level.txt
+            │   │   ├── WHEEL
+            │   │   └── zip-safe
+            │   ├── wheel
+            │   │   ├── bdist_wheel.py
+            │   │   ├── cli
+            │   │   │   ├── convert.py
+            │   │   │   ├── __init__.py
+            │   │   │   ├── pack.py
+            │   │   │   ├── __pycache__
+            │   │   │   │   ├── convert.cpython-36.pyc
+            │   │   │   │   ├── __init__.cpython-36.pyc
+            │   │   │   │   ├── pack.cpython-36.pyc
+            │   │   │   │   └── unpack.cpython-36.pyc
+            │   │   │   └── unpack.py
+            │   │   ├── __init__.py
+            │   │   ├── __main__.py
+            │   │   ├── metadata.py
+            │   │   ├── pep425tags.py
+            │   │   ├── pkginfo.py
+            │   │   ├── __pycache__
+            │   │   │   ├── bdist_wheel.cpython-36.pyc
+            │   │   │   ├── __init__.cpython-36.pyc
+            │   │   │   ├── __main__.cpython-36.pyc
+            │   │   │   ├── metadata.cpython-36.pyc
+            │   │   │   ├── pep425tags.cpython-36.pyc
+            │   │   │   ├── pkginfo.cpython-36.pyc
+            │   │   │   ├── util.cpython-36.pyc
+            │   │   │   └── wheelfile.cpython-36.pyc
+            │   │   ├── util.py
+            │   │   └── wheelfile.py
+            │   └── wheel-0.33.6.dist-info
+            │       ├── entry_points.txt
+            │       ├── INSTALLER
+            │       ├── LICENSE.txt
+            │       ├── METADATA
+            │       ├── RECORD
+            │       ├── top_level.txt
+            │       └── WHEEL
+            ├── site.py
+            ├── sre_compile.py -> /usr/lib/python3.6/sre_compile.py
+            ├── sre_constants.py -> /usr/lib/python3.6/sre_constants.py
+            ├── sre_parse.py -> /usr/lib/python3.6/sre_parse.py
+            ├── stat.py -> /usr/lib/python3.6/stat.py
+            ├── struct.py -> /usr/lib/python3.6/struct.py
+            ├── tarfile.py -> /usr/lib/python3.6/tarfile.py
+            ├── tempfile.py -> /usr/lib/python3.6/tempfile.py
+            ├── tokenize.py -> /usr/lib/python3.6/tokenize.py
+            ├── token.py -> /usr/lib/python3.6/token.py
+            ├── types.py -> /usr/lib/python3.6/types.py
+            ├── warnings.py -> /usr/lib/python3.6/warnings.py
+            ├── weakref.py -> /usr/lib/python3.6/weakref.py
+            └── _weakrefset.py -> /usr/lib/python3.6/_weakrefset.py
+
+127 directories, 992 files
