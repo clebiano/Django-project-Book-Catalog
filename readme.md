@@ -1,16 +1,12 @@
-# Capítulo 2: Guia de desenvolvimento da plataforma
+# Guia de desenvolvimento da plataforma
 
-## 1 Introdução  
-
-O desenvolvimento desta plataforma já se inicia com um ambiente previamente preparado a partir da instalação de programas importantes. Para a preparação deste ambiente siga o "Guia de instalação e manutenção" do projeto e o tutorial "readme_web_dev_django" (https://docs.google.com/document/d/1idKW5nrvjKQuSFTgQGQbz5swY3EUdDXkokJXfvPqdtY/edit?usp=sharing).
-
-## 2 Criando estrutura inicial do projeto  
+## Criando estrutura inicial do projeto  
 - Entrando no diretório Documents/  
 	`$ cd Documents/`
 - Criando diretório raiz para o projeto  
-	`$ mkdir vpsdb`
+	`$ mkdir book_catalog`
 - Entrando no diretório raiz do projeto  
-	`$ cd vpsdb/`
+	`$ cd book_catalog/`
 - Criando ambiente virtual com Python3  
 	`$ virtualenv -p python3.6 venv`
 - Ativando o ambiente virtual  
@@ -46,7 +42,7 @@ O desenvolvimento desta plataforma já se inicia com um ambiente previamente pre
 	`$ source venv/bin/activate`  
 	`$ pip install --upgrade django`  
 - Criando o projeto inicial django no ambiente virtual venv  
-	`$ django-admin.py startproject proj . ` # o "." permite que o arquivo "manage.py" seja criado na raiz do projeto  
+	`$ django-admin.py startproject book_catalog . ` # o "." permite que o arquivo "manage.py" seja criado na raiz do projeto  
 - Verificando se existem alterações para o banco de dados  
 	`$ python manage.py makemigrations`
 - Migrando alterações do django para o banco de dados  
@@ -59,6 +55,26 @@ O desenvolvimento desta plataforma já se inicia com um ambiente previamente pre
 	Username (leave blank to use 'clebiano'): 03939033383  
 	Email address: clebiano@alumni.usp.br  
 	Password: \*\*\*\*\*\*\*  
+- Instalação do django-rest-framework  
+	- `$ pip install djangorestframework`  
+	- `$ pip install markdown       # Markdown support for the browsable API.`  
+	- `$ pip install django-filter  # Filtering support`  
+- Adicionar `'rest_framework',` ao apps instalados em settings.py  
 - Entrar no ambiente Admin do Django  
 	http://127.0.0.1:8000/admin/  
+- Instalação do postman para gerenciamento de api  
+	- `$sudo snap install postman`
 - Estrutura inicial pronta!
+
+## Instalação em uma nova máquina  
+- Deletar venv  
+- Criar uma nova venv  
+ - `$ sudo apt install virtualenv`  
+ - `$ virtualenv -p python3.6 venv`  
+- `$ pip install -r requirements.txt`  
+
+## APP core (principal APP)  
+- Criando APP core  
+	`$ python manage.py startapp core`  
+
+##
