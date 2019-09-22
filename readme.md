@@ -12,7 +12,7 @@
 - Ativando o ambiente virtual  
 	`$ source venv/bin/activate`
 - Salvando lista de pacotes pip para posterior instalação rápida  
-	`$ pip freeze > requirements.txt`
+	`$ pip freeze > requirements-dev.txt`
 - Salvando estrutura de diretórios e arquivos do projeto em forma de árvore  
 	`$ tree > project.tree`
 - Inicializando um diretório para monitoramento de versões com git  
@@ -71,7 +71,7 @@
 - Criar uma nova venv  
  - `$ sudo apt install virtualenv`  
  - `$ virtualenv -p python3.6 venv`  
-- `$ pip install -r requirements.txt`  
+- `$ pip install -r requirements-dev.txt`  
 
 ## APP core (principal APP)  
 - Criando APP core  
