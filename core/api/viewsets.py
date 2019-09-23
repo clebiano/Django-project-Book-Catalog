@@ -13,7 +13,7 @@ class BookViewSet(ModelViewSet):
     API endpoint that allows users to be viewed or edited.
     """
     permission_classes = [IsAuthenticated]
-    authentication_classes = (TokenAuthentication,)
+    # authentication_classes = (TokenAuthentication,)
     # queryset = Book.objects.all()
     serializer_class = BookSerializer
     filter_backends = [SearchFilter]

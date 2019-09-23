@@ -19,11 +19,12 @@ from rest_framework import routers
 from django.conf import settings
 from django.conf.urls.static import static
 from django.conf.urls import include
+from rest_framework.authtoken.views import obtain_auth_token
 from core.api.viewsets import BookViewSet
 from category.api.viewsets import CategoryViewSet
 from author.api.viewsets import AuthorViewSet
 from review.api.viewsets import ReviewViewSet
-from rest_framework.authtoken.views import obtain_auth_token
+from account.api.viewsets import UserCreateViewSet
 
 
 router = routers.DefaultRouter()
@@ -31,9 +32,11 @@ router.register(r'bookcatalog', BookViewSet, base_name='book_catalog')
 router.register(r'category', CategoryViewSet)
 router.register(r'author', AuthorViewSet)
 router.register(r'review', ReviewViewSet)
+# router.register(r'register', UserCreateViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
     path('admin/', admin.site.urls),
     path('api-token-auth/', obtain_auth_token),
+    path('api/users/', include("account.api.urls", namespace='users-api')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
